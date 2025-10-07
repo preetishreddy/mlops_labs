@@ -78,7 +78,6 @@ password: admin
 **DAG ID:** `sms_spam_pipeline`  
 **Task Flow:** download → prep → train → evaluate → batch
 
-(Insert Airflow DAG Screenshot here)
 
 ---
 
@@ -124,7 +123,6 @@ After a successful run, you’ll find results in airflow_lab1/dags/model/:
 
 ## 🖼️ Future Enhancements
 
-- [ ] Add ROC Curve and Confusion Matrix visuals  
 - [ ] Integrate XGBoost classifier for comparison  
 - [ ] Push model artifacts to cloud storage (e.g., S3)  
 - [ ] Add email notification upon DAG completion  
