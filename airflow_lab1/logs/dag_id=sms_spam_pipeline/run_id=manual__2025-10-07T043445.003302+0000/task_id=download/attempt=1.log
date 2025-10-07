@@ -1,0 +1,24 @@
+[2025-10-07T04:34:45.592+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-07T04:34:45.636+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sms_spam_pipeline.download manual__2025-10-07T04:34:45.003302+00:00 [queued]>
+[2025-10-07T04:34:45.647+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sms_spam_pipeline.download manual__2025-10-07T04:34:45.003302+00:00 [queued]>
+[2025-10-07T04:34:45.649+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-10-07T04:34:45.666+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): download> on 2025-10-07 04:34:45.003302+00:00
+[2025-10-07T04:34:45.674+0000] {standard_task_runner.py:63} INFO - Started process 400 to run task
+[2025-10-07T04:34:45.679+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sms_spam_pipeline', 'download', 'manual__2025-10-07T04:34:45.003302+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/***.py', '--cfg-path', '/tmp/tmpef6qtbii']
+[2025-10-07T04:34:45.683+0000] {standard_task_runner.py:91} INFO - Job 8: Subtask download
+[2025-10-07T04:34:45.778+0000] {task_command.py:426} INFO - Running <TaskInstance: sms_spam_pipeline.download manual__2025-10-07T04:34:45.003302+00:00 [running]> on host 8e814aeda5b8
+[2025-10-07T04:34:45.899+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sms_spam_pipeline' AIRFLOW_CTX_TASK_ID='download' AIRFLOW_CTX_EXECUTION_DATE='2025-10-07T04:34:45.003302+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-07T04:34:45.003302+00:00'
+[2025-10-07T04:34:45.900+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-07T04:34:45.915+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-10-07T04:34:45.917+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/dags/src/download.py']
+[2025-10-07T04:34:45.937+0000] {subprocess.py:86} INFO - Output:
+[2025-10-07T04:34:58.230+0000] {subprocess.py:93} INFO - Downloading dataset...
+[2025-10-07T04:34:58.231+0000] {subprocess.py:93} INFO - Status: 200
+[2025-10-07T04:34:58.231+0000] {subprocess.py:93} INFO - Extracting SMSSpamCollection...
+[2025-10-07T04:34:58.232+0000] {subprocess.py:93} INFO - Saved /opt/***/dags/data/file.csv, rows=5574
+[2025-10-07T04:34:58.433+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-10-07T04:34:58.434+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-07T04:34:58.469+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=sms_spam_pipeline, task_id=download, run_id=manual__2025-10-07T04:34:45.003302+00:00, execution_date=20251007T043445, start_date=20251007T043445, end_date=20251007T043458
+[2025-10-07T04:34:58.522+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-10-07T04:34:58.561+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-07T04:34:58.565+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
