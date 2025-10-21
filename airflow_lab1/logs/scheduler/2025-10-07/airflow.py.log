@@ -481,3 +481,241 @@
 [2025-10-07T04:51:33.623+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:51:33.623+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-10-07T04:51:33.652+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:51:33.652+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
 [2025-10-07T04:51:33.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.162 seconds
+[2025-10-07T04:52:03.807+0000] {processor.py:161} INFO - Started process (PID=726) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:52:03.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:52:03.811+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:52:03.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:52:03.838+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:52:03.878+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:52:03.877+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:52:03.901+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:52:03.901+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:52:03.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.127 seconds
+[2025-10-07T04:52:34.113+0000] {processor.py:161} INFO - Started process (PID=731) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:52:34.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:52:34.117+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:52:34.117+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:52:34.148+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:52:34.193+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:52:34.193+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:52:34.220+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:52:34.220+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:52:34.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.146 seconds
+[2025-10-07T04:53:04.510+0000] {processor.py:161} INFO - Started process (PID=736) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:53:04.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:53:04.513+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:53:04.513+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:53:04.541+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:53:04.577+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:53:04.576+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:53:04.601+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:53:04.601+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:53:04.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.123 seconds
+[2025-10-07T04:53:34.737+0000] {processor.py:161} INFO - Started process (PID=741) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:53:34.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:53:34.740+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:53:34.740+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:53:34.770+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:53:34.814+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:53:34.814+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:53:34.839+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:53:34.838+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:53:34.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.137 seconds
+[2025-10-07T04:54:05.067+0000] {processor.py:161} INFO - Started process (PID=746) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:54:05.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:54:05.070+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:54:05.070+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:54:05.098+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:54:05.135+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:54:05.135+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:54:05.162+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:54:05.162+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:54:05.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.128 seconds
+[2025-10-07T04:54:35.335+0000] {processor.py:161} INFO - Started process (PID=751) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:54:35.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:54:35.339+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:54:35.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:54:35.373+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:54:35.419+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:54:35.418+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:54:35.446+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:54:35.446+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:54:35.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.153 seconds
+[2025-10-07T04:55:05.643+0000] {processor.py:161} INFO - Started process (PID=756) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:55:05.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:55:05.647+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:55:05.647+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:55:05.675+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:55:05.712+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:55:05.712+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:55:05.740+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:55:05.740+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:55:05.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.134 seconds
+[2025-10-07T04:55:35.940+0000] {processor.py:161} INFO - Started process (PID=761) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:55:35.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:55:35.944+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:55:35.944+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:55:35.980+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:55:36.030+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:55:36.029+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:55:36.057+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:55:36.057+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:55:36.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.157 seconds
+[2025-10-07T04:56:06.220+0000] {processor.py:161} INFO - Started process (PID=766) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:56:06.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:56:06.224+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:56:06.223+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:56:06.259+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:56:06.299+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:56:06.299+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:56:06.326+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:56:06.326+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:56:06.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.143 seconds
+[2025-10-07T04:56:36.539+0000] {processor.py:161} INFO - Started process (PID=771) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:56:36.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:56:36.545+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:56:36.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:56:36.577+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:56:36.613+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:56:36.612+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:56:36.637+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:56:36.637+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:56:36.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.132 seconds
+[2025-10-07T04:57:06.794+0000] {processor.py:161} INFO - Started process (PID=776) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:57:06.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:57:06.799+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:57:06.798+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:57:06.831+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:57:06.884+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:57:06.883+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:57:06.914+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:57:06.914+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:57:06.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.159 seconds
+[2025-10-07T04:57:37.115+0000] {processor.py:161} INFO - Started process (PID=781) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:57:37.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:57:37.119+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:57:37.118+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:57:37.154+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:57:37.197+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:57:37.197+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:57:37.225+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:57:37.225+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:57:37.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.148 seconds
+[2025-10-07T04:58:07.375+0000] {processor.py:161} INFO - Started process (PID=786) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:58:07.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:58:07.380+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:58:07.379+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:58:07.409+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:58:07.453+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:58:07.453+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:58:07.478+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:58:07.477+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:58:07.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.137 seconds
+[2025-10-07T04:58:37.591+0000] {processor.py:161} INFO - Started process (PID=791) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:58:37.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:58:37.595+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:58:37.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:58:37.625+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:58:37.667+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:58:37.666+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:58:37.691+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:58:37.690+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:58:37.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.133 seconds
+[2025-10-07T04:59:07.959+0000] {processor.py:161} INFO - Started process (PID=796) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:59:07.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:59:07.964+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:59:07.963+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:59:07.999+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:59:08.047+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:59:08.046+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:59:08.081+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:59:08.080+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:59:08.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.161 seconds
+[2025-10-07T04:59:38.355+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T04:59:38.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T04:59:38.359+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:59:38.358+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T04:59:38.392+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T04:59:38.433+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:59:38.433+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T04:59:38.461+0000] {logging_mixin.py:188} INFO - [2025-10-07T04:59:38.461+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T04:59:38.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.142 seconds
+[2025-10-07T05:00:08.572+0000] {processor.py:161} INFO - Started process (PID=806) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:00:08.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:00:08.576+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:00:08.576+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:00:08.608+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:00:08.651+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:00:08.650+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:00:08.675+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:00:08.675+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:00:08.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.140 seconds
+[2025-10-07T05:00:38.915+0000] {processor.py:161} INFO - Started process (PID=811) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:00:38.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:00:38.920+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:00:38.919+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:00:38.948+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:00:38.987+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:00:38.986+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:00:39.013+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:00:39.013+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:00:39.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.128 seconds
+[2025-10-07T05:01:09.139+0000] {processor.py:161} INFO - Started process (PID=816) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:01:09.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:01:09.144+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:01:09.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:01:09.179+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:01:09.221+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:01:09.221+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:01:09.246+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:01:09.246+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:01:09.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.141 seconds
+[2025-10-07T05:01:39.509+0000] {processor.py:161} INFO - Started process (PID=821) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:01:39.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:01:39.524+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:01:39.523+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:01:39.597+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:01:39.654+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:01:39.653+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:01:39.686+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:01:39.685+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:01:39.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.246 seconds
+[2025-10-07T05:02:09.993+0000] {processor.py:161} INFO - Started process (PID=826) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:02:09.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:02:09.998+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:02:09.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:02:10.040+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:02:10.082+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:02:10.082+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:02:10.114+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:02:10.114+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:02:10.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.160 seconds
+[2025-10-07T05:02:40.384+0000] {processor.py:161} INFO - Started process (PID=831) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:02:40.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:02:40.389+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:02:40.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:02:40.422+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:02:40.462+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:02:40.462+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:02:40.493+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:02:40.493+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:02:40.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.146 seconds
+[2025-10-07T05:03:10.827+0000] {processor.py:161} INFO - Started process (PID=836) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:03:10.828+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:03:10.831+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:03:10.831+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:03:10.864+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:03:10.921+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:03:10.921+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:03:10.950+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:03:10.950+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:03:10.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.166 seconds
+[2025-10-07T05:03:41.086+0000] {processor.py:161} INFO - Started process (PID=841) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:03:41.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:03:41.090+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:03:41.090+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:03:41.128+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:03:41.180+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:03:41.180+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:03:41.212+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:03:41.211+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:03:41.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.175 seconds
+[2025-10-07T05:04:11.450+0000] {processor.py:161} INFO - Started process (PID=846) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:04:11.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:04:11.453+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:04:11.453+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:04:11.480+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:04:11.517+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:04:11.516+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:04:11.542+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:04:11.542+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:04:11.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.126 seconds
+[2025-10-07T05:04:41.688+0000] {processor.py:161} INFO - Started process (PID=851) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:04:41.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:04:41.692+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:04:41.692+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:04:41.721+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:04:41.761+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:04:41.760+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:04:41.787+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:04:41.786+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:04:41.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.131 seconds
+[2025-10-07T05:05:12.001+0000] {processor.py:161} INFO - Started process (PID=856) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:05:12.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:05:12.005+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:05:12.005+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:05:12.035+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:05:12.075+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:05:12.075+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:05:12.102+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:05:12.101+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:05:12.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.137 seconds
+[2025-10-07T05:05:42.241+0000] {processor.py:161} INFO - Started process (PID=861) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:05:42.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:05:42.245+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:05:42.245+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:05:42.277+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:05:42.318+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:05:42.318+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:05:42.345+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:05:42.345+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:05:42.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.137 seconds
+[2025-10-07T05:06:12.563+0000] {processor.py:161} INFO - Started process (PID=866) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:06:12.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:06:12.566+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:06:12.566+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:06:12.600+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:06:12.641+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:06:12.641+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:06:12.666+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:06:12.666+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:06:12.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.137 seconds
+[2025-10-07T05:06:42.820+0000] {processor.py:161} INFO - Started process (PID=871) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:06:42.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:06:42.827+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:06:42.826+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:06:42.881+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:06:42.940+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:06:42.940+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:06:42.976+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:06:42.976+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:06:43.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.210 seconds
+[2025-10-07T05:07:13.118+0000] {processor.py:161} INFO - Started process (PID=876) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:07:13.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:07:13.122+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:07:13.121+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:07:13.151+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:07:13.186+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:07:13.186+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:07:13.211+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:07:13.210+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:07:13.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.128 seconds
+[2025-10-07T05:07:43.449+0000] {processor.py:161} INFO - Started process (PID=881) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:07:43.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:07:43.453+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:07:43.453+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:07:43.481+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:07:43.518+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:07:43.518+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:07:43.542+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:07:43.542+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:07:43.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.126 seconds
+[2025-10-07T05:08:13.842+0000] {processor.py:161} INFO - Started process (PID=886) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:08:13.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:08:13.847+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:08:13.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:08:13.886+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:08:13.939+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:08:13.939+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:08:13.971+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:08:13.970+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:08:14.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.174 seconds
+[2025-10-07T05:08:44.257+0000] {processor.py:161} INFO - Started process (PID=891) to work on /opt/airflow/dags/airflow.py
+[2025-10-07T05:08:44.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2025-10-07T05:08:44.264+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:08:44.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2025-10-07T05:08:44.297+0000] {processor.py:840} INFO - DAG(s) 'sms_spam_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2025-10-07T05:08:44.343+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:08:44.343+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-07T05:08:44.374+0000] {logging_mixin.py:188} INFO - [2025-10-07T05:08:44.374+0000] {dag.py:3954} INFO - Setting next_dagrun for sms_spam_pipeline to 2025-10-07 00:00:00+00:00, run_after=2025-10-08 00:00:00+00:00
+[2025-10-07T05:08:44.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.163 seconds
