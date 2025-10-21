@@ -1,0 +1,27 @@
+# Python cache and bytecode
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Beam outputs and temp data
+out/
+*.csv
+*.parquet
+*.pdf
+*.png
+
+# Logs and cache
+*.log
+.pytest_cache/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
