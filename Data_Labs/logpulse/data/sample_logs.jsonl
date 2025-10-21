@@ -1,0 +1,6 @@
+{"ts":"2025-10-20T12:00:01Z","user_id":"u1","endpoint":"/api/orders","status":200,"latency_ms":120,"ua":"Mozilla/5.0"}
+{"ts":"2025-10-20T12:00:02Z","user_id":"u2","endpoint":"/api/orders","status":200,"latency_ms":180,"ua":"Mozilla/5.0"}
+{"ts":"2025-10-20T12:00:03Z","user_id":"u1","endpoint":"/api/cart","status":500,"latency_ms":950,"ua":"Googlebot"}
+{"ts":"2025-10-20T12:00:04Z","user_id":"u3","endpoint":"/api/cart","status":200,"latency_ms":60,"ua":"Mozilla/5.0"}
+{"ts":"2025-10-20T12:00:05Z","user_id":"u3","endpoint":"/api/cart","status":200,"latency_ms":70,"ua":"Mozilla/5.0"}
+{"ts":"2025-10-20T12:00:06Z","user_id":"u2","endpoint":"/api/orders","status":200,"latency_ms":210,"ua":"curl/8.2"}
